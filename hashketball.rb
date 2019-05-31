@@ -152,3 +152,13 @@ def players_numbers(name_of_team)
   end
   return numbers
 end
+
+def team_colors(team)
+  if team == "Charlotte Hornets"
+    game_hash[:away][:colors]
+  elsif team == "Brooklyn Nets"
+    game_hash[:home][:colors]
+  else
+
+  end
+end
